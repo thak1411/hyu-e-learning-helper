@@ -1,0 +1,9 @@
+{
+    "name": "HYU-E-LEARNING-HELPER",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "matches": [ "https://selc.or.kr/lms/lms/class/courseSchedule/doLearningWindow2.do*" ],
+        "js": ["/src/script.js"]
+    } ]
+}
